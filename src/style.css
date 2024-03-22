@@ -26,15 +26,28 @@ body {
     color: #00064a;    
 }
 
+a{
+    text-decoration: none;
+    color: #00064a; 
+}
+
+a:hover {
+    color: #539d97;
+}
+
 h1{
     font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
     color: #00064a;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 300;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 h2{
@@ -48,9 +61,16 @@ h2{
     align-items: center;
 }
 
+th{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
 h3{
     color: #00064a;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     padding:  0px;
     display: flex;
